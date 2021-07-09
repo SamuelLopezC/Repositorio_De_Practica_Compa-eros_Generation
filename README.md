@@ -14,4 +14,4 @@ Erika Diaz:
 
 Samuel Martinez: 
 
-Samuel Lopez: 
+Samuel Lopez: Background section login, form vacio de tipo glass,

@@ -19,13 +19,36 @@
         </section>
     </header>
     <section class="body-sec2">
-        <form method="GET" action="">
-            <h1 class="form">Iniciar sesion </h1>
-            <h1>no se como bajar la cajita del hero</h1><!--Esta linea no deberia ir en la pagina-->
+        <form class="form-1" method="GET" action="">
+            <h1 class="titulo-1">Iniciar sesion </h1>
             <label for="email">Usuario:</label>
             <input type="email" name="email" id="email">
-            <label for="passwd">Contraseña</label>
+            <label for="passwd">Contraseña:</label>
             <input type="password" name="passwd" id="passwd">
+        </form>
+    </section>
+    <section class="body-sec3">
+        <form class="form-2" method="GET" action="">
+            <h1 class="titulo-2">Crear cuenta</h1>
+            <label class="label-2" for="name">Nombre:</label>
+            <input type="text" name="name" id="name" maxlength="30"/>
+            <label class="label-2" for="surname">Apellido:</label>
+            <input type="text" name="surname" id="surname" maxlength="30"/>
+            <label class="label-2" for="age">Edad:</label>
+            <input type="number" name="age" id="age"/>
+            <!--<label for="gender">Genero:</label>
+            <input type="radio" name="gender" id="gender" value="Masculino" checked/>/Masculino
+            <input type="radio" name="gender" id="gender" value="Femenino"/>Femenino
+            EN ESTA PARTE TUVE PROBLEMAS CUANDO SE MUESTRA MASCULINO, FEMENINO PORQUE LA LETRA ESTA EN NEGRO
+            -->
+            <label class="label-2" for="email">Correo electrónico:</label>
+            <input type="email" name="email" id="email">
+            <label class="label-2" for="passwd">Contraseña:</label>
+            <input type="password" name="passwd" id="passwd">
+            <label class="label-2" for="passwd-2">Confirmar contraseña:</label>
+            <input type="password" name="passwd-2" id="passwd-2">
+            <label class="label-2" for="datebirth">Fecha de nacimiento:</label>
+            <input type="date" name="datebirth" id="datebirth"/>
         </form>
     </section>
 </body>
